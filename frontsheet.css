@@ -1,0 +1,68 @@
+body {
+  font-family: Arial;
+}
+h1 {
+  color: #7a1e96;
+  text-align: center;
+}
+ul.navi {
+	list-style-type: none;
+	margin: 0px;
+	padding: 1px;
+	overflow: hidden;
+	background-color: #c9fdff;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+li.topbar {
+	float: left;
+	border-right: 2px solid #00f7ff;
+}
+
+/* Add a border to all( but not the last) list items */
+li.topbar:last-child {
+	border-right: none;
+}
+
+li.topbar a {
+	display: block;
+	color: #6b6b6b;
+	text-align: left;
+	padding: 15px 15px;
+	text-decoration: none;
+}
+table, th, td {
+  border: 2px solid #6b6b6b;
+  border-collapse: collapse;
+  border-spacing: 5px;
+}
+th, tr, td {
+  opacity: 1;
+}
+img.gifgal {
+  height: 320px;
+  align-self: center;
+}
+/* Borrowed/Adapted from Will*/
+.rainbow-text {
+  background-image: repeating-linear-gradient(to left, red, violet, indigo, blue, green, yellow, orange, red);
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: bg 5s infinite linear;
+  }
+.white {
+  color: white;
+}
+td img.MarRan {
+  width: 210px;
+  length: 300px;
+}
+p.ZEE {
+  margin: auto;
+  width: 65%;
+  color: black;
+  padding: 6px;
+}
